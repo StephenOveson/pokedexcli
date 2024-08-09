@@ -36,6 +36,8 @@ func main() {
 		pokedex:       pokedex.InitPokedex(),
 	}
 	reader := bufio.NewScanner(os.Stdin)
+
+	fmt.Println("If it's your first time I recommend trying the 'help' command!")
 	for {
 		fmt.Print("Pokedex > ")
 		reader.Scan()
